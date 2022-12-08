@@ -1,0 +1,18 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Room</th>
+      <th scope="col">Device Name</th>
+      <th scope="col">Model</th>
+      <th scope="col">Uptime Avg</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let d of device">
+      <th scope="row">{{d.Room}}</th>
+      <td>{{d.Name}}</td>
+      <td>{{d.Model}}</td>
+      <td>{{d.Average}}</td>
+    </tr>
+  </tbody>
+</table>
