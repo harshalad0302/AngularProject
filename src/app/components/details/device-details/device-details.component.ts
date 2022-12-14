@@ -11,7 +11,7 @@ import { Device } from 'src/app/models/device.model';
 export class DeviceDetailsComponent implements OnInit {
 
    device: Device[]= deviceData;
-
+    
   constructor(){
 
   }
